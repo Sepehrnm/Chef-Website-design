@@ -1,0 +1,50 @@
+/* ANIMATIONS */
+/* Card1 */
+@keyframes mymove {
+  0% {
+    left: 70px;
+    top: 0;
+  }
+  50% {
+    left: 150px;
+    top: 0;
+  }
+
+  100% {
+    left: 70px;
+    top: 0;
+  }
+}
+/* Card2 */
+@keyframes mymove2 {
+  0% {
+    left: 800px;
+    top: -250px;
+  }
+  50% {
+    left: 750px;
+    top: -250px;
+  }
+
+  100% {
+    left: 800px;
+    top: -250px;
+  }
+}
+/* Card3 */
+@keyframes mymove3 {
+  0% {
+    left: 460px;
+    top: -180px;
+  }
+  50% {
+    left: 460px;
+    top: -150px;
+  }
+
+  100% {
+    left: 460px;
+    top: -180px;
+  }
+}
+/* ************************ */

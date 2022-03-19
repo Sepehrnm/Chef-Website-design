@@ -1,0 +1,98 @@
+/* footer */
+
+.footer {
+  background: brown;
+  width: 100%;
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socialMedia {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.socialMedia a {
+  text-decoration: none;
+  color: #f4f4f4;
+  transition: all 0.2s ease-in;
+}
+
+.socialMedia a:hover {
+  color: rgb(250, 170, 170);
+}
+
+.socialMedia i {
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.aboutUs {
+  padding: 1.5rem;
+  width: 30%;
+}
+
+.contactUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactUs h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.contactUs form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactUs form input {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  width: 300px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+.contactUs form input:last-child {
+  height: 100px;
+}
+
+.contactUs form input::placeholder {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactUs form input:hover {
+  outline: 3px solid #f4f4f4;
+}
+
+.btn-submit {
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: gray;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+  transition: all 0.2s ease-in;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-submit:hover {
+  background-color: rgba(236, 164, 164, 0.281);
+  color: #f4f4f4;
+}
+/* *************************** */

@@ -1,0 +1,57 @@
+/* Section4 / Packages */
+
+.packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  border: 2px solid #333;
+  width: 350px;
+  display: flex;
+  margin: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray, -5px -5px 2px gray;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.cardContainer img {
+  width: 150px;
+  /* height: 200px; */
+  padding: 0.2rem;
+  border-radius: 12px;
+}
+
+.cardContainer:hover {
+  box-shadow: 5px 5px 15px gray, -5px -5px 10px gray;
+}
+
+.content h3 {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: brown;
+}
+
+.category {
+  font-size: 1.1rem;
+  color: red;
+  font-weight: bold;
+  padding: 0.5rem 0.2rem;
+}
+
+.category span {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardContainer p:last-child {
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* ******** */

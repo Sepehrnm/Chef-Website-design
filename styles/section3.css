@@ -1,0 +1,25 @@
+/* Section3 / Chef Master */
+
+.chefMaster {
+  width: 100%;
+  text-align: justify;
+}
+
+.chefMaster h3 {
+  color: #f4f4f4;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 0 0 2rem 0;
+}
+
+.chefMaster p {
+  padding: 2rem 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+}
+
+/* ******** */

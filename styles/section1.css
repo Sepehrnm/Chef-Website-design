@@ -1,0 +1,100 @@
+/* section1 */
+
+.sectionContainer {
+  height: fit-content;
+}
+
+.card,
+.card2,
+.card3 {
+  display: flex;
+  border: 2px solid black;
+  position: relative;
+  width: 500px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgb(189, 189, 189);
+}
+
+.card {
+  animation: mymove 6s infinite;
+  margin-top: 80px;
+  left: 300px;
+}
+
+#card {
+  animation-timing-function: ease-in;
+}
+
+.card2 {
+  left: 800px;
+  top: -250px;
+  animation: mymove2 6s infinite;
+}
+
+#card2 {
+  animation-timing-function: ease-in;
+}
+
+.card3 {
+  left: 460px;
+  top: -180px;
+  animation: mymove3 6s infinite;
+}
+
+#card3 {
+  animation-timing-function: ease-in;
+}
+
+.card img,
+.card2 img,
+.card3 img {
+  width: 180px;
+  /* height: 200px; */
+}
+
+.card h3,
+.card2 h3,
+.card3 h3 {
+  font-size: 1.5rem;
+  padding: 1.4rem;
+  font-weight: bold;
+}
+
+.card h4,
+.card2 h4,
+.card3 h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  color: brown;
+}
+
+.card p,
+.card2 p,
+.card3 p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0 1rem;
+  color: purple;
+  font-weight: bold;
+}
+
+.card2 p {
+  color: rgb(20, 0, 131);
+}
+
+.card3 p {
+  color: gray;
+}
+
+.card {
+  outline: 2px solid gold;
+}
+
+.card2 {
+  outline: 2px solid silver;
+}
+
+.card3 {
+  outline: 2px solid #b08d57;
+}

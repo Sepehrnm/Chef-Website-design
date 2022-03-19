@@ -1,0 +1,48 @@
+/* Section2 */
+.aboutContainer {
+  background: rgba(255, 76, 76, 0.226);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  text-align: justify;
+}
+
+.aboutContainer .logo h2 {
+  margin: 1rem;
+}
+
+.aboutContainer .logo a,
+.aboutContainer .logo h2 {
+  text-decoration: none;
+  color: #f4f4f4;
+  transition: all 0.2s ease-in;
+}
+
+.aboutContainer .logo a:hover,
+.aboutContainer .logo h2:hover {
+  cursor: pointer;
+  color: brown;
+  border-color: brown;
+}
+
+.aboutContainer h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f4f4f4;
+}
+
+.aboutContainer p {
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  /* letter-spacing: 2px; */
+  font-weight: bold;
+  padding: 2rem 4rem;
+  /* text-overflow: ellipsis; */
+  /* min-width: 40ch; */
+}
+
+/* ********* */

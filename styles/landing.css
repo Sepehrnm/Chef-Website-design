@@ -1,0 +1,65 @@
+/* landing */
+
+.landing {
+  background: url(../images/landing.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100% !important;
+  height: 635px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.blurImage {
+  width: 100% !important;
+  height: 635px;
+  position: absolute;
+  top: 3.75rem;
+  left: 0;
+  background: #f4f4f4;
+  opacity: 0.33;
+}
+
+.logo h2 {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  color: #f4f4f4;
+  font-weight: bold;
+  font-size: 3rem;
+  border: solid 2px #f4f4f4;
+  padding: 0.5rem;
+  margin-top: -10rem;
+}
+
+.landing h1,
+.landing p {
+  line-height: 5rem;
+}
+
+.landing h1 {
+  font-size: 3.5rem;
+  color: #f4f4f4;
+}
+
+.landing p {
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.textContainer span {
+  display: inline-block;
+  background-color: #f4f4f4;
+  width: 150px;
+  height: 5px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* *************************** */
